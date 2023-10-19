@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.MyCarYourRide.TermsandConditions">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:background="@drawable/template">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/renter"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text=" Terms and Conditions"
+                android:textColor="#ff2c2c"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="439dp"
+                android:layout_below="@+id/renter"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/b612_italic"
+                android:lineSpacingExtra="5dp"
+                android:text="*  The renters should have to confirm their booking by contacting Owners within 24 hours.
+                                                         *  Renters should have to verify their documents(original+xerox)  at the time of vehicle Delivery.
+                                         *  This app is only provide the facility to give their vehicle on rent.Rest thing has been done to the user Manually like Payments,Confirmation of the bookings and so on.
+
+                                                        *   In the booking period the renters has a full responsibility of the vehicle.
+                *   The renters have to clear their all his query from the Owners after vehicle bookings. "
+                android:textColor="#000000"
+                android:textSize="22dp" />
+
+        </RelativeLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

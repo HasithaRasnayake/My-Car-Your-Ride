@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.transport">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="My Car Your Ride"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.MyCarYourRide.TermsandConditions"/>
+        <activity android:name="com.example.MyCarYourRide.splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.MyCarYourRide.MyBookings2" />
+        <activity android:name="com.example.MyCarYourRide.MyBookings" />
+        <activity android:name="com.example.MyCarYourRide.UpdateVehicale" />
+        <activity android:name="com.example.MyCarYourRide.Updateprofile" />
+        <activity android:name="com.example.MyCarYourRide.Forgotpassword" />
+        <activity android:name="com.example.MyCarYourRide.Renterdetails" />
+        <activity android:name="com.example.MyCarYourRide.MyRenters" />
+        <activity android:name="com.example.MyCarYourRide.MyVehicales2" />
+        <activity android:name="com.example.MyCarYourRide.MyVehicales" />
+        <activity android:name="com.example.MyCarYourRide.Profile2" />
+        <activity android:name="com.example.MyCarYourRide.Personaldetails" />
+        <activity android:name="com.example.MyCarYourRide.Profile" />
+        <activity android:name="com.example.MyCarYourRide.Book_Vehicale" />
+        <activity android:name="com.example.MyCarYourRide.ViewVehicaleDetails" />
+        <activity android:name="com.example.MyCarYourRide.Home" />
+        <activity android:name="com.example.MyCarYourRide.Addvehicale" />
+        <activity android:name="com.example.MyCarYourRide.Signin" />
+        <activity android:name="com.example.MyCarYourRide.Getotp" />
+        <activity android:name="com.example.MyCarYourRide.Contactus" />
+        <activity android:name="com.example.MyCarYourRide.Registeration" />
+        <activity android:name="com.example.MyCarYourRide.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

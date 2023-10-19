@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.MyCarYourRide.splash"
+    android:background="@drawable/template"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/bg"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="My Car You Ride"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="70sp"
+        android:fontFamily="@font/faster_one"
+        android:gravity="center_horizontal">
+
+    </TextView>
+
+
+
+</LinearLayout>

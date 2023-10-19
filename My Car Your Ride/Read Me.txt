@@ -1,0 +1,4 @@
+**This project is done by Hasitha Prabhash 
+**This contains android studio project of personal car rental mobile applicatio using Java
+**This is done for educational purpose
+**I have used firebase as the Database
